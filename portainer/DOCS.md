@@ -1,5 +1,11 @@
 # Home Assistant Community Add-on: Portainer
 
+![Warning][warning_stripe]
+
+> This is a **fork** of the DEPRECATED [community add-on][community_addon]!
+
+![Warning][warning_stripe]
+
 Portainer is an open-source lightweight management UI which allows you to
 easily manage a Docker host(s) or Docker swarm clusters.
 
@@ -33,8 +39,9 @@ for "Portainer" and install it as you would any other add-on.
 To be able to use this add-on, you'll need to disable protection mode on this
 add-on. Without it, the add-on is unable to access Docker.
 
-1. Search for the "Portainer" add-on in the Supervisor add-on store and
-   install it.
+1. Navigate in your Home Assistant frontend to **Supervisor** -> **Add-on Store**.
+1. Click **Repositories** in the **...** menu at the top right corner, add `https://github.com/lmagyar/homeassistant-addon-portainer` as repository.
+1. Search for the "Portainer" add-on in the Supervisor add-on store and install it. If it doesn't show up, wait until HA refreshes the information about the add-on, or click **Reload** in the **...** menu at the top right corner.
 1. Set the "Protection mode" switch to off.
 1. Start the "Portainer" add-on.
 1. Check the logs of the "Portainer" add-on to see if everything went well.
@@ -143,3 +150,5 @@ SOFTWARE.
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/hassio-addons/addon-portainer/releases
 [semver]: http://semver.org/spec/v2.0.0.htm
+[warning_stripe]: https://github.com/lmagyar/homeassistant-addon-portainer/raw/master/samba/warning_stripe_wide.png
+[community_addon]: https://github.com/hassio-addons/addon-portainer
