@@ -3,10 +3,35 @@
 ![Warning][warning_stripe]
 
 > This is a **fork** of the DEPRECATED [community add-on][community_addon]! This makes it available again.
->
-> Updates are released when Portainer releases new versions.
 
 ![Warning][warning_stripe]
+
+[![GitHub Release][releases-shield]][releases]
+![Project Stage][project-stage-shield]
+[![License][license-shield]][licence]
+
+![Supports aarch64 Architecture][aarch64-shield]
+![Supports amd64 Architecture][amd64-shield]
+![Supports armhf Architecture][armhf-shield]
+![Supports armv7 Architecture][armv7-shield]
+![Supports i386 Architecture][i386-shield]
+
+[![Github Actions][github-actions-shield]][github-actions]
+![Project Maintenance][maintenance-shield]
+[![GitHub Activity][commits-shield]][commits]
+
+[![Discord][discord-shield]][discord]
+[![Community Forum][forum-shield]][forum]
+
+[![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
+
+[![Support Frenck on Patreon][patreon-shield]][patreon]
+
+Manage your Docker environment with ease.
+
+![The Portainer Hass.io add-on][screenshot]
+
+## About
 
 Portainer is an open-source lightweight management UI which allows you to
 easily manage a Docker host(s) or Docker swarm clusters.
@@ -14,6 +39,17 @@ easily manage a Docker host(s) or Docker swarm clusters.
 It has never been so easy to manage Docker. Portainer provides a detailed
 overview of Docker and allows you to manage containers, images, networks and
 volumes.
+
+## ~DISCONTINUED~
+
+~This add-on is no longer available.~
+
+It has been used quite a lot for unsupported purposes, causing many issues,
+support questions and other problems.
+
+If you run Home Assistant, please be aware that running additional containers
+is not a supported use-case and will trigger your system to be flagged
+as unsupported as well.
 
 ## WARNING 1
 
@@ -32,68 +68,6 @@ or third-party containers.
 on Home Assistant OS or Supervised installation types. Ignoring this, will
 render your system as unsupported!
 
-## Installation
-
-To install this add-on, you'll first need to go to your profile and turn on
-"Advanced Mode", once that is done go back to Home Assistant add-ons and search
-for "Portainer" and install it as you would any other add-on.
-
-To be able to use this add-on, you'll need to disable protection mode on this
-add-on. Without it, the add-on is unable to access Docker.
-
-1. Navigate in your Home Assistant frontend to **Supervisor** -> **Add-on Store**.
-1. Click **Repositories** in the **...** menu at the top right corner, add `https://github.com/lmagyar/homeassistant-addon-portainer` as repository.
-1. Search for the "Portainer" add-on in the Supervisor add-on store and install it. If it doesn't show up, wait until HA refreshes the information about the add-on, or click **Reload** in the **...** menu at the top right corner.
-1. Set the "Protection mode" switch to off.
-1. Start the "Portainer" add-on.
-1. Check the logs of the "Portainer" add-on to see if everything went well.
-
-## Configuration
-
-**Note**: _Remember to restart the add-on when the configuration is changed._
-
-Example add-on configuration:
-
-```yaml
-log_level: info
-agent_secret: password
-```
-
-**Note**: _This is just an example, don't copy and paste it! Create your own!_
-
-### Option: `log_level`
-
-The `log_level` option controls the level of log output by the addon and can
-be changed to be more or less verbose, which might be useful when you are
-dealing with an unknown issue. Possible values are:
-
-- `trace`: Show every detail, like all called internal functions.
-- `debug`: Shows detailed debug information.
-- `info`: Normal (usually) interesting events.
-- `warning`: Exceptional occurrences that are not errors.
-- `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
-
-Please note that each level automatically includes log messages from a
-more severe level, e.g., `debug` also shows `info` messages. By default,
-the `log_level` is set to `info`, which is the recommended setting unless
-you are troubleshooting.
-
-### Option: `agent_secret`
-
-An option to set a shared agent secret. Must also be set in the remote agent
-as an Environment variable.
-
-## Releases
-
-Releases are based on [Semantic Versioning][semver], and use the format
-of `MAJOR.MINOR.PATCH`. In a nutshell, the version will be incremented
-based on the following:
-
-- `MAJOR`: Incompatible or major changes.
-- `MINOR`: Backwards-compatible new features and enhancements.
-- `PATCH`: Backwards-compatible bugfixes and package updates.
-
 ## Support
 
 Got questions?
@@ -109,12 +83,29 @@ You have several options to get them answered:
 
 You could also [open an issue here][issue] GitHub.
 
+## Contributing
+
+This is an active open-source project. We are always open to people who want to
+use the code or contribute to it.
+
+We have set up a separate document containing our
+[contribution guidelines][contributing].
+
+Thank you for being involved!
+
 ## Authors & contributors
 
 The original setup of this repository is by [Franck Nijhof][frenck].
 
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
+
+## We have got some Home Assistant add-ons for you
+
+Want some more functionality to your Home Assistant instance?
+
+We have created multiple add-ons for Home Assistant. For a full list, check out
+our [GitHub Repository][repository].
 
 ## License
 
@@ -142,13 +133,36 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[commits-shield]: https://img.shields.io/github/commit-activity/y/lmagyar/homeassistant-addon-portainer.svg
+[commits]: https://github.com/lmagyar/homeassistant-addon-portainer/commits/main
 [contributors]: https://github.com/lmagyar/homeassistant-addon-portainer/graphs/contributors
+[contributing]: https://github.com/lmagyar/homeassistant-addon-portainer/blob/main/.github/CONTRIBUTING.md
 [discord-ha]: https://discord.gg/c5DvZ4e
+[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
+[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-portainer/68836?u=frenck
 [frenck]: https://github.com/frenck
+[github-actions-shield]: https://github.com/lmagyar/homeassistant-addon-portainer/workflows/Publish/badge.svg
+[github-actions]: https://github.com/lmagyar/homeassistant-addon-portainer/actions
+[github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
+[github-sponsors]: https://github.com/sponsors/frenck
+[i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [issue]: https://github.com/lmagyar/homeassistant-addon-portainer/issues
+[license-shield]: https://img.shields.io/github/license/lmagyar/homeassistant-addon-portainer.svg
+[licence]: https://github.com/lmagyar/homeassistant-addon-portainer/blob/main/LICENSE
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
+[patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
+[patreon]: https://www.patreon.com/frenck
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-custom-orange.svg
 [reddit]: https://reddit.com/r/homeassistant
-[semver]: http://semver.org/spec/v2.0.0.html
+[releases-shield]: https://img.shields.io/github/tag/lmagyar/homeassistant-addon-portainer.svg
+[releases]: https://github.com/lmagyar/homeassistant-addon-portainer/tags
+[repository]: https://github.com/hassio-addons/repository
+[screenshot]: https://github.com/lmagyar/homeassistant-addon-portainer/raw/main/images/screenshot.png
 [warning_stripe]: https://github.com/lmagyar/homeassistant-addon-portainer/raw/main/portainer/warning_stripe_wide.png
 [community_addon]: https://github.com/hassio-addons/addon-portainer
