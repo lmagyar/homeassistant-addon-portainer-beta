@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:10.0.1
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:11.0.1
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -14,7 +14,7 @@ RUN \
     && if [ "${BUILD_ARCH}" = "amd64" ]; then ARCH="amd64"; fi \
     \
     && curl -L -s \
-        "https://github.com/portainer/portainer/releases/download/2.6.2/portainer-2.6.2-linux-${ARCH}.tar.gz" \
+        "https://github.com/portainer/portainer/releases/download/2.11.0/portainer-2.11.0-linux-${ARCH}.tar.gz" \
         | tar zxvf - -C /opt/
 
 # Copy root filesystem

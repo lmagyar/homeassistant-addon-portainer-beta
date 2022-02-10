@@ -1,9 +1,15 @@
 # Changelog
 
+## 2.0.1 (forked)
+
+- Bump Portainer version to 2.11.0
+
 ## 2.0.0.0 (forked)
 
-- Make it accessible as a custom add-on
+- Make it available as a custom add-on
 
 ## 2.0.0
 
 - Last known, deprecated community add-on
+
+For previous changelog see the original add-on's [release history](https://github.com/hassio-addons/addon-portainer/releases).
