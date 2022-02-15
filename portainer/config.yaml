@@ -1,5 +1,5 @@
 name: Portainer
-version: 2.0.1
+version: 2.0.2
 slug: portainer
 description: Manage your Docker environment with ease
 url: https://github.com/lmagyar/homeassistant-addon-portainer

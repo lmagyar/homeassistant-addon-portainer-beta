@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.2 (forked)
+
+- Bump Portainer version to 2.11.1
+
 ## 2.0.1 (forked)
 
 - Bump Portainer version to 2.11.0
