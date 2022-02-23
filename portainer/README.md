@@ -7,6 +7,8 @@
 ![Warning][warning_stripe]
 
 [![GitHub Release][releases-shield]][releases]
+[![Last Updated][updated-shield]][updated]
+![Reported Installations][installations-shield]
 ![Project Stage][project-stage-shield]
 [![License][license-shield]][licence]
 
@@ -152,6 +154,7 @@ SOFTWARE.
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
 [i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[installations-shield]: https://img.shields.io/badge/dynamic/json?label=reported%20installations&query=$[%278be344cf_portainer%27].total&url=https%3A%2F%2Fanalytics.home-assistant.io%2Faddons.json
 [issue]: https://github.com/lmagyar/homeassistant-addon-portainer/issues
 [license-shield]: https://img.shields.io/github/license/lmagyar/homeassistant-addon-portainer.svg
 [licence]: https://github.com/lmagyar/homeassistant-addon-portainer/blob/main/LICENSE
@@ -160,9 +163,11 @@ SOFTWARE.
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-custom-orange.svg
 [reddit]: https://reddit.com/r/homeassistant
-[releases-shield]: https://img.shields.io/github/tag/lmagyar/homeassistant-addon-portainer.svg
+[releases-shield]: https://img.shields.io/github/tag/lmagyar/homeassistant-addon-portainer.svg?label=release
 [releases]: https://github.com/lmagyar/homeassistant-addon-portainer/tags
 [repository]: https://github.com/hassio-addons/repository
 [screenshot]: https://github.com/lmagyar/homeassistant-addon-portainer/raw/main/images/screenshot.png
+[updated-shield]: https://img.shields.io/github/last-commit/lmagyar/homeassistant-addon-portainer/main?label=updated
+[updated]: https://github.com/lmagyar/homeassistant-addon-portainer/commits/main
 [warning_stripe]: https://github.com/lmagyar/homeassistant-addon-portainer/raw/main/portainer/warning_stripe_wide.png
 [community_addon]: https://github.com/hassio-addons/addon-portainer
