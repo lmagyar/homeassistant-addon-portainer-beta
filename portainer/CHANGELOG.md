@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.4 (forked)
+
+- Bump Portainer version to 2.13.0
+
 ## 2.0.3 (forked)
 
 - Exclude unnecessary files from backup
