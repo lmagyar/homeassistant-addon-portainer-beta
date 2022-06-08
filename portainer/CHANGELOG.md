@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.6 (forked)
+
+- Bump base image from 11.1.2 to 12.0.0
+- Fix finish script for S6-overlay v3
+
 ## 2.0.5 (forked)
 
 - Bump Portainer version to 2.13.1
@@ -7,6 +12,7 @@
 ## 2.0.4 (forked)
 
 - Bump Portainer version to 2.13.0
+- Bump base image from 11.0.1 to 11.1.2
 
 ## 2.0.3 (forked)
 
@@ -19,6 +25,7 @@
 ## 2.0.1 (forked)
 
 - Bump Portainer version to 2.11.0
+- Bump base image from 10.0.1 to 11.0.1
 
 ## 2.0.0.0 (forked)
 
