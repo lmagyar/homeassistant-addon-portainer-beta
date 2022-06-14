@@ -1,6 +1,6 @@
 ---
 name: Portainer
-version: 2.0.6-beta01
+version: 2.1.0
 slug: portainer
 description: Manage your Docker environment with ease
 url: https://github.com/lmagyar/homeassistant-addon-portainer

@@ -1,9 +1,8 @@
 # Changelog
 
-## 2.0.6 (forked)
+## 2.1.0 (forked)
 
 - Bump base image from 11.1.2 to 12.0.0
-- Fix finish script for S6-overlay v3
 
 ## 2.0.5 (forked)
 
