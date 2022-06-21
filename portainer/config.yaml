@@ -1,0 +1,31 @@
+---
+name: Portainer
+version: 2.1.1
+slug: portainer
+description: Manage your Docker environment with ease
+url: https://github.com/lmagyar/homeassistant-addon-portainer
+codenotary: lmagyar1973@gmail.com
+advanced: true
+ingress: true
+ingress_stream: true
+startup: services
+panel_icon: mdi:docker
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+init: false
+ports:
+  8000/tcp: null
+ports_description:
+  8000/tcp: Edge Agent Api (Enable when managing remote edge agents)
+hassio_api: true
+docker_api: true
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  agent_secret: str?
+backup_exclude:
+  - backups
+  - docker_config/cli-plugins
+image: lmagyar/{arch}-addon-portainer
