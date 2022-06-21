@@ -6,4 +6,4 @@ build_from:
   armv7: ghcr.io/hassio-addons/base/armv7:12.2.0
 codenotary:
   signer: lmagyar1973@gmail.com
-  base_image: notary@home-assistant.io
+  base_image: codenotary@frenck.dev
