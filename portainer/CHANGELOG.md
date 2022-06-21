@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.1 (forked)
+
+- Fix script permissions
+
 ## 2.1.0 (forked)
 
 - Bump base image from 11.1.2 to 12.2.0
