@@ -1,4 +1,4 @@
 
-name: Portainer add-on
-url: https://github.com/lmagyar/homeassistant-addon-portainer
+name: "[BETA] Portainer add-on"
+url: https://github.com/lmagyar/homeassistant-addon-portainer-beta
 maintainer: "@lmagyar"
