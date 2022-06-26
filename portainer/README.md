@@ -169,5 +169,5 @@ SOFTWARE.
 [screenshot]: https://github.com/lmagyar/homeassistant-addon-portainer/raw/main/images/screenshot.png
 [updated-shield]: https://img.shields.io/github/last-commit/lmagyar/homeassistant-addon-portainer/main?label=updated
 [updated]: https://github.com/lmagyar/homeassistant-addon-portainer/commits/main
-[warning_stripe]: https://github.com/lmagyar/homeassistant-addon-portainer/raw/main/portainer/warning_stripe_wide.png
+[warning_stripe]: https://github.com/lmagyar/homeassistant-addon-portainer/raw/main/images/warning_stripe_wide.png
 [community_addon]: https://github.com/hassio-addons/addon-portainer

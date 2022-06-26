@@ -150,5 +150,5 @@ SOFTWARE.
 [issue]: https://github.com/lmagyar/homeassistant-addon-portainer/issues
 [reddit]: https://reddit.com/r/homeassistant
 [semver]: http://semver.org/spec/v2.0.0.html
-[warning_stripe]: https://github.com/lmagyar/homeassistant-addon-portainer/raw/main/portainer/warning_stripe_wide.png
+[warning_stripe]: https://github.com/lmagyar/homeassistant-addon-portainer/raw/main/images/warning_stripe_wide.png
 [community_addon]: https://github.com/hassio-addons/addon-portainer
