@@ -1,5 +1,5 @@
 
-| ![Stop][stop_sign] | This is a beta repository! Please use the non-beta https://github.com/lmagyar/homeassistant-addon-portainer repository! This beta repository is for myself to experiment and test. After it works I delete even the images from docker. | ![Stop][stop_sign] |
+| <img src="https://github.com/lmagyar/homeassistant-addon-portainer-beta/raw/main/images/stop_sign.png" title="Stop"> | This is a beta repository! Please use the non-beta https://github.com/lmagyar/homeassistant-addon-portainer repository! This beta repository is for myself to experiment and test. After it works I delete even the images from docker. | <img src="https://github.com/lmagyar/homeassistant-addon-portainer-beta/raw/main/images/stop_sign.png" title="Stop"> |
 | --- | --- | --- |
 
 # Home Assistant ~Community~ Custom Add-on: Portainer
@@ -174,5 +174,4 @@ SOFTWARE.
 [updated-shield]: https://img.shields.io/github/last-commit/lmagyar/homeassistant-addon-portainer/main?label=updated
 [updated]: https://github.com/lmagyar/homeassistant-addon-portainer/commits/main
 [warning_stripe]: https://github.com/lmagyar/homeassistant-addon-portainer/raw/main/images/warning_stripe_wide.png
-[stop_sign]: https://github.com/lmagyar/homeassistant-addon-portainer-beta/raw/main/images/stop_sign.png
 [community_addon]: https://github.com/hassio-addons/addon-portainer
