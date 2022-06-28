@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.2 (forked)
+
+- Bump Portainer version to 2.14.0
+
 ## 2.1.1 (forked)
 
 - Fix script permissions
