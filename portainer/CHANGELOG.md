@@ -1,9 +1,13 @@
 # Changelog
 
+## 2.1.5 (forked)
+
+- Bump base image from 12.2.2 to 12.2.3
+
 ## 2.1.4 (forked)
 
-- Bump base image from 12.2.0 to 12.2.2
 - Bump Portainer version from 2.14.1 to 2.14.2
+- Bump base image from 12.2.0 to 12.2.2
 
 ## 2.1.3 (forked)
 
