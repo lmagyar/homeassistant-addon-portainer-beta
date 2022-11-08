@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.11 (forked)
+
+- Bump base image from 12.2.5 to 12.2.6
+
 ## 2.1.10 (forked)
 
 - Bump base image from 12.2.4 to 12.2.5
