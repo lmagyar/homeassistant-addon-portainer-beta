@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.16 (forked)
+
+- Bump base image from 13.0.0 to 13.0.1
+
 ## 2.1.15 (forked)
 
 - Bump base image from 12.2.7 to 13.0.0
