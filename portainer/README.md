@@ -115,7 +115,7 @@ MIT License
 
 Copyright (c) 2018-2021 Franck Nijhof
 
-Copyright (c) 2022-2022 Laszlo Magyar
+Copyright (c) 2022-2023 Laszlo Magyar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -158,7 +158,7 @@ SOFTWARE.
 [issue]: https://github.com/lmagyar/homeassistant-addon-portainer/issues
 [license-shield]: https://img.shields.io/github/license/lmagyar/homeassistant-addon-portainer.svg
 [licence]: https://github.com/lmagyar/homeassistant-addon-portainer/blob/main/LICENSE
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-custom-orange.svg
