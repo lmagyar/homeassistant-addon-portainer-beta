@@ -1,5 +1,9 @@
 # Changelog
 
+## vNext (forked)
+
+- Bump base image from 13.0.1 to 13.1.0
+
 ## 2.1.16 (forked)
 
 - Bump base image from 13.0.0 to 13.0.1
