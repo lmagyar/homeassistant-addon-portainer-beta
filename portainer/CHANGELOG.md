@@ -2,7 +2,7 @@
 
 ## vNext (forked)
 
-- Bump base image from 13.0.1 to 13.1.0
+- Bump base image from 13.0.1 to 13.1.1
 
 ## 2.1.16 (forked)
 
