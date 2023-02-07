@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.17 (forked)
+
+- Bump Portainer version from 2.16.2 to 2.17.0
+- Bump base image from 13.0.1 to 13.1.1
+
 ## 2.1.16 (forked)
 
 - Bump base image from 13.0.0 to 13.0.1
