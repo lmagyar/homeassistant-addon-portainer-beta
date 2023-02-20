@@ -1,5 +1,9 @@
 # Changelog
 
+## vNext (forked)
+
+- Bump base image from 13.1.1 to 13.1.2
+
 ## 2.1.17 (forked)
 
 - Bump Portainer version from 2.16.2 to 2.17.0
