@@ -28,4 +28,4 @@ schema:
 backup_exclude:
   - backups
   - docker_config/cli-plugins
-image: lmagyar/{arch}-addon-portainer
+image: ghcr.io/lmagyar/{arch}-addon-portainer

@@ -5,5 +5,5 @@ build_from:
   armhf: ghcr.io/hassio-addons/base/armhf:13.2.0
   armv7: ghcr.io/hassio-addons/base/armv7:13.2.0
 codenotary:
-  signer: lmagyar1973@gmail.com
   base_image: codenotary@frenck.dev
+  signer: lmagyar1973@gmail.com
