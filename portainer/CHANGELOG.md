@@ -2,8 +2,7 @@
 
 ## vNext (forked)
 
-- Update Add-on base image to v13.2.0
-- Bump base image from 13.1.2 to 13.1.3
+- Update Add-on base image to v13.2.1
 
 ## 2.1.18 (forked)
 
