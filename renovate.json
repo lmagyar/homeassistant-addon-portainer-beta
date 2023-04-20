@@ -34,7 +34,6 @@
       ],
       "datasourceTemplate": "github-releases",
       "depNameTemplate": "portainer/portainer",
-      "extractVersionTemplate": "^Release (?<version>.*)$"
     }
   ],
   "packageRules": [
