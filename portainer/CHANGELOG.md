@@ -2,6 +2,7 @@
 
 ## vNext (forked)
 
+- Update Portainer to v2.18.1
 - Update Add-on base image to v13.2.1
 
 ## 2.1.18 (forked)
