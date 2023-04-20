@@ -52,6 +52,7 @@
       "automerge": true
     },
     {
+      "groupName": "Portainer",
       "matchDatasources": ["github-releases"],
       "matchDepNames": ["portainer/portainer"],
       "matchUpdateTypes": ["minor", "patch"],
