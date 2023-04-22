@@ -3,7 +3,7 @@ name: "[BETA] Portainer"
 version: 2.1.18
 slug: portainer-beta
 description: "[BETA] Manage your Docker environment with ease"
-url: https://github.com/lmagyar/homeassistant-addon-portainer
+url: https://github.com/lmagyar/homeassistant-addon-portainer-beta
 codenotary: lmagyar1973@gmail.com
 advanced: true
 ingress: true
@@ -28,4 +28,4 @@ schema:
 backup_exclude:
   - backups
   - docker_config/cli-plugins
-image: lmagyar/{arch}-addon-portainer
+image: ghcr.io/lmagyar/{arch}-addon-portainer-beta
