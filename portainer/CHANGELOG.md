@@ -1,6 +1,6 @@
 # Changelog
 
-## vNext (forked)
+## 2.2.0 (forked)
 
 - Update Portainer to v2.18.1
 - Migrate add-on layout to S6 Overlay
