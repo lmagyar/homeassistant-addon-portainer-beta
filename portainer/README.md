@@ -2,7 +2,9 @@
 
 ![Warning][warning_stripe]
 
-> This is a **fork** of the deprecated [community add-on][community_addon]! This makes it available again.
+> This is a **fork** of the deprecated [community add-on][community_addon]!
+>
+> This makes it available again.
 
 ![Warning][warning_stripe]
 

@@ -2,11 +2,18 @@
 
 ![Warning][warning_stripe]
 
-> This is a **fork** of the deprecated [community add-on][community_addon]! This makes it available again.
+> This is a **fork** of the deprecated [community add-on][community_addon]!
 >
-> Updates are released when Portainer releases new versions.
+> This makes it available again.
 
 ![Warning][warning_stripe]
+
+Portainer is an open-source lightweight management UI which allows you to
+easily manage a Docker host(s) or Docker swarm clusters.
+
+It has never been so easy to manage Docker. Portainer provides a detailed
+overview of Docker and allows you to manage containers, images, networks and
+volumes.
 
 ## Installation
 
@@ -17,9 +24,13 @@ for "Portainer" and install it as you would any other add-on.
 To be able to use this add-on, you'll need to disable protection mode on this
 add-on. Without it, the add-on is unable to access Docker.
 
-1. Navigate in your Home Assistant frontend to **Settings** -> **Add-ons** -> **Add-on Store**.
-1. In the **...** menu at the top right corner click **Repositories**, add `https://github.com/lmagyar/homeassistant-addon-portainer` as repository.
-1. Find the "Portainer" add-on and click it. If it doesn't show up, wait until HA refreshes the information about the add-on, or click **Reload** in the **...** menu at the top right corner.
+1. Navigate in your Home Assistant frontend to **Settings** -> **Add-ons** ->
+   **Add-on Store**.
+1. In the **...** menu at the top right corner click **Repositories**, add
+   `https://github.com/lmagyar/homeassistant-addon-portainer` as repository.
+1. Find the "Portainer" add-on and click it. If it doesn't show up, wait until
+   HA refreshes the information about the add-on, or click **Reload** in the
+   **...** menu at the top right corner.
 1. Click on the "INSTALL" button.
 
 ## How to use
@@ -30,16 +41,10 @@ add-on. Without it, the add-on is unable to access Docker.
 
 ## Add-on Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
-
-Example add-on configuration:
-
 ```yaml
 log_level: info
 agent_secret: password
 ```
-
-**Note**: _This is just an example, don't copy and paste it! Create your own!_
 
 ### Option: `log_level`
 
@@ -75,7 +80,7 @@ You have several options to get them answered:
 - The Home Assistant [Community Forum][forum].
 - Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
 
-You could also [open an issue here][issue] GitHub.
+You could also [open an issue here][issue] on GitHub.
 
 [discord]: https://discord.gg/c5DvZ4e
 [forum]: https://community.home-assistant.io/t/home-assistant-community-add-on-portainer/68836
