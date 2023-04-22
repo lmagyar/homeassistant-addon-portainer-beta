@@ -1,6 +1,6 @@
 ---
 name: Portainer
-version: 2.1.18
+version: 2.2.0
 slug: portainer
 description: Manage your Docker environment with ease
 url: https://github.com/lmagyar/homeassistant-addon-portainer
@@ -28,4 +28,4 @@ schema:
 backup_exclude:
   - backups
   - docker_config/cli-plugins
-image: lmagyar/{arch}-addon-portainer
+image: ghcr.io/lmagyar/{arch}-addon-portainer
