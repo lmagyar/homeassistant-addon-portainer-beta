@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.1 (forked)
+
+- Update Portainer to v2.18.2
+
 ## 2.2.0 (forked)
 
 - Update Portainer to v2.18.1
