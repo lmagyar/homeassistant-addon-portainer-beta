@@ -4,6 +4,8 @@
 
 # Home Assistant Custom Add-on: Portainer
 
+Manage your Docker environment with ease.
+
 ![Warning][warning_stripe]
 
 > This is a **fork** of the deprecated [community add-on][community_addon]!
@@ -11,8 +13,6 @@
 > This makes it available again.
 
 ![Warning][warning_stripe]
-
-Manage your Docker environment with ease.
 
 [![GitHub Release][releases-shield]][releases]
 [![Last Updated][updated-shield]][updated]
