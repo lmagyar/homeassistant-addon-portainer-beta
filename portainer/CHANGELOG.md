@@ -1,5 +1,9 @@
 # Changelog
 
+## vNext (forked)
+
+- Update Portainer to v2.18.3
+
 ## 2.2.2 (forked)
 
 - Update Add-on base image to v14 (Update Alpine base image to v3.18.0)
