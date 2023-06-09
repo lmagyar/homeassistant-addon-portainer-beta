@@ -1,5 +1,9 @@
 # Changelog
 
+## vNext (forked)
+
+- Sign add-on with Sigstore Cosign
+
 ## 2.2.3 (forked)
 
 - Update Portainer to v2.18.3

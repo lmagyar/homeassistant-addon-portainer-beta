@@ -20,5 +20,3 @@ jobs:
           --${{ matrix.arch }} \
           --target portainer \
           --test
-      env:
-        CAS_API_KEY: ${{ secrets.CAS_TOKEN }}
