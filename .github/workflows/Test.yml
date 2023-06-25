@@ -19,5 +19,4 @@ jobs:
         args: |
           --${{ matrix.arch }} \
           --target portainer \
-          --no-cache \
           --test
