@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.3.0 (forked)
+
+- Update portainer/portainer to v2.18.4
+- Update Add-on base image to v14.0.2
+- Sign add-on with Sigstore Cosign
+
 ## 2.2.3 (forked)
 
 - Update Portainer to v2.18.3
