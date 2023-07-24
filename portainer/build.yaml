@@ -4,5 +4,3 @@ build_from:
   amd64: ghcr.io/hassio-addons/base/amd64:14.0.5
   armhf: ghcr.io/hassio-addons/base/armhf:14.0.5
   armv7: ghcr.io/hassio-addons/base/armv7:14.0.5
-codenotary:
-  base_image: codenotary@frenck.dev
