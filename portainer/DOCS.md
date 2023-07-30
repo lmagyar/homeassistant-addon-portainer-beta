@@ -29,8 +29,8 @@ add-on. Without it, the add-on is unable to access Docker.
 1. In the **...** menu at the top right corner click **Repositories**, add
    `https://github.com/lmagyar/homeassistant-addon-portainer` as repository.
 1. Find the "Portainer" add-on and click it. If it doesn't show up, wait until
-   HA refreshes the information about the add-on, or click **Reload** in the
-   **...** menu at the top right corner.
+   HA refreshes the information about the add-on, or click **Check for updates**
+   in the **...** menu at the top right corner.
 1. Click on the "INSTALL" button.
 
 ## How to use
