@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.2 (forked)
+
+- Update portainer/portainer to v2.19.1
+
 ## 2.3.1 (forked)
 
 - Update portainer/portainer to v2.19.0
