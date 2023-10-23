@@ -11,10 +11,9 @@ ingress_stream: true
 startup: services
 panel_icon: mdi:docker
 arch:
-  - armhf
-  - armv7
   - aarch64
   - amd64
+  - armv7
 init: false
 ports:
   8000/tcp: null
