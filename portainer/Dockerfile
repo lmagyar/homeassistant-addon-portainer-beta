@@ -20,6 +20,9 @@ RUN \
 # Copy root filesystem
 COPY rootfs /
 
+HEALTHCHECK \
+    CMD if [ "200" = $(curl -s -o /dev/null -w "%{http_code}" "http://localhost:8099/api/system/status") ]; then exit 0; else exit 1; fi
+
 # Build arguments
 ARG BUILD_ARCH
 ARG BUILD_DATE
