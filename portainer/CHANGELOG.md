@@ -6,6 +6,7 @@
 - Drop support for armhf & i386
 
 Nonbreaking changes:
+- Adds HEALTCHECK support
 - Update portainer/portainer to v2.19.2
 - Update Add-on base image to v14.3.2
 
