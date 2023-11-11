@@ -1,5 +1,13 @@
 # Changelog
 
+## vNext (forked)
+
+***BREAKING CHANGES:***
+- Drop support for armhf & i386
+
+Nonbreaking changes:
+- Update Add-on base image to v14.3.1
+
 ## 2.3.2 (forked)
 
 - Update portainer/portainer to v2.19.1
