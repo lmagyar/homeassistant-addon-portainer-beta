@@ -1,6 +1,6 @@
 # Changelog
 
-## vNext (forked)
+## 2.4.0 (forked)
 
 ***BREAKING CHANGES:***
 - Drop support for armhf & i386
