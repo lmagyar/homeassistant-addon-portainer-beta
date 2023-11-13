@@ -7,7 +7,8 @@
 
 Nonbreaking changes:
 - Adds HEALTCHECK support
-- Update Add-on base image to v14.3.1
+- Update portainer/portainer to v2.19.2
+- Update Add-on base image to v14.3.2
 
 ## 2.3.2 (forked)
 
