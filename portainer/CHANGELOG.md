@@ -1,6 +1,6 @@
 # Changelog
 
-## vNext (forked)
+## 2.4.1 (forked)
 
 - Update portainer/portainer to v2.19.3
 
