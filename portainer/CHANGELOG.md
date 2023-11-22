@@ -1,5 +1,9 @@
 # Changelog
 
+## vNext (forked)
+
+- Update portainer/portainer to v2.19.3
+
 ## 2.4.0 (forked)
 
 ***BREAKING CHANGES:***
