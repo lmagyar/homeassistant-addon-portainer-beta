@@ -22,7 +22,6 @@ ports_description:
 hassio_api: true
 docker_api: true
 schema:
-  log_level: list(trace|debug|info|notice|warning|error|fatal)?
   agent_secret: str?
 backup_exclude:
   - backups

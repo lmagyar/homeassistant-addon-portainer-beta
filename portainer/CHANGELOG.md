@@ -1,5 +1,9 @@
 # Changelog
 
+## vNext (forked)
+
+- Remove `log_level` fom the documentation, this is not used by the add-on
+
 ## 2.4.1 (forked)
 
 - Update portainer/portainer to v2.19.3
