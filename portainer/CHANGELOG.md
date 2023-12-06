@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.4.2 (forked)
+
+- Remove `log_level` fom the documentation, this is not used by the add-on
+- Update portainer/portainer to v2.19.4
+- Update Add-on base image to v14.3.3
+
 ## 2.4.1 (forked)
 
 - Update portainer/portainer to v2.19.3
