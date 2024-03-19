@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.4.3 (forked)
+
+- Update portainer/portainer to v2.20.0
+- Update Add-on base image to v15.0.7 (Update Alpine base image to v3.19.1)
+
 ## 2.4.2 (forked)
 
 - Remove `log_level` fom the documentation, this is not used by the add-on
@@ -16,7 +21,7 @@
 - Drop support for armhf & i386
 
 Nonbreaking changes:
-- Adds HEALTCHECK support
+- Add HEALTCHECK support
 - Update portainer/portainer to v2.19.2
 - Update Add-on base image to v14.3.2
 
