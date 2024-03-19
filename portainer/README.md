@@ -70,7 +70,7 @@ render your system as unsupported!
 [installations-shield]: https://img.shields.io/badge/dynamic/json?label=reported%20installations&query=$[%278be344cf_portainer%27].total&url=https%3A%2F%2Fanalytics.home-assistant.io%2Faddons.json
 [license-shield]: https://img.shields.io/github/license/lmagyar/homeassistant-addon-portainer.svg
 [licence]: https://github.com/lmagyar/homeassistant-addon-portainer/blob/main/LICENSE
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-green.svg
 [releases-shield]: https://img.shields.io/github/tag/lmagyar/homeassistant-addon-portainer.svg?label=release
 [releases]: https://github.com/lmagyar/homeassistant-addon-portainer/tags
