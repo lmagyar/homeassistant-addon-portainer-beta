@@ -1,6 +1,6 @@
 # Changelog
 
-## vNext (forked)
+## 2.4.4 (forked)
 
 - Update portainer/portainer to v2.20.1
 - Update Add-on base image to v15.0.8
