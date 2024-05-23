@@ -34,7 +34,7 @@
         "ARG PORTAINER_VERSION=[\"']?(?<currentValue>.+?)[\"']?\\s+"
       ],
       "datasourceTemplate": "github-releases",
-      "depNameTemplate": "portainer/portainer",
+      "depNameTemplate": "portainer/portainer"
     }
   ],
   "packageRules": [
