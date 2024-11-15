@@ -1,5 +1,11 @@
 # Changelog
 
+## vNext (forked)
+
+- Update portainer/portainer to v2.21.4
+- Fix HEALTHCHECK support
+- Update Add-on base image to v16.3.6
+
 ## 2.4.8 (forked)
 
 - Update portainer/portainer to v2.21.2

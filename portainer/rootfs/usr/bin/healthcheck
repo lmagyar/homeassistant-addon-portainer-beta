@@ -1,0 +1,6 @@
+#!/command/with-contenv bashio
+# shellcheck shell=bash
+
+if [[ "200" != $(curl -s -o /dev/null -w "%{http_code}" "http://localhost:8099/api/system/status") ]]; then
+    bashio::exit.nok
+fi
