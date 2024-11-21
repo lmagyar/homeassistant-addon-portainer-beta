@@ -1,6 +1,6 @@
 # Changelog
 
-## vNext (forked)
+## 2.4.10 (forked)
 
 - Log HEALTHCHECK status and errors
 
