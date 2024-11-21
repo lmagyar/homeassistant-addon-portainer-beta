@@ -1,5 +1,9 @@
 # Changelog
 
+## vNext (forked)
+
+- Log HEALTHCHECK status and errors
+
 ## 2.4.9 (forked)
 
 - Update portainer/portainer to v2.21.4
