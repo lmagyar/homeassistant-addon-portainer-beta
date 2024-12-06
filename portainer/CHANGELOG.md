@@ -1,5 +1,9 @@
 # Changelog
 
+## vNext (forked)
+
+- Update Add-on base image to v17.0.0 (Update Alpine base image to v3.21.0)
+
 ## 2.4.10 (forked)
 
 - Log HEALTHCHECK status and errors
