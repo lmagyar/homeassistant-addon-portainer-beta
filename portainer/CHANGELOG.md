@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.4.11 (forked)
+
+- Update portainer/portainer to v2.21.5
+- Update Add-on base image to v17.0.1 (Update Alpine base image to v3.21.0)
+
 ## 2.4.10 (forked)
 
 - Log HEALTHCHECK status and errors
