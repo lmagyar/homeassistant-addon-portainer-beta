@@ -1,6 +1,6 @@
 # Changelog
 
-## vNext (forked)
+## 2.4.12 (forked)
 
 - Update Add-on base image to v17.0.2
 
