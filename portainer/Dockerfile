@@ -23,6 +23,12 @@ COPY rootfs /
 HEALTHCHECK \
     CMD healthcheck
 
+# Environment variables
+ENV \
+    # Add-on log format
+    LOG_FORMAT="{TIMESTAMP} {LEVEL}: {MESSAGE}" \
+    LOG_TIMESTAMP="%Y/%m/%d %H:%M:%S"
+
 # Build arguments
 ARG BUILD_ARCH
 ARG BUILD_DATE

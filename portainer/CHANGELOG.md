@@ -2,6 +2,7 @@
 
 ## vNext (forked)
 
+- Configure log format for the add-on to be compatible with Portainer's format
 - Update Add-on base image to v17.1.0
 
 ## 2.4.12 (forked)
