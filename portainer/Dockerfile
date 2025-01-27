@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:17.0.2
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:17.1.0
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -22,6 +22,12 @@ COPY rootfs /
 
 HEALTHCHECK \
     CMD healthcheck
+
+# Environment variables
+ENV \
+    # Add-on log format
+    LOG_FORMAT="{TIMESTAMP} {LEVEL}: {MESSAGE}" \
+    LOG_TIMESTAMP="%Y/%m/%d %H:%M:%S"
 
 # Build arguments
 ARG BUILD_ARCH
