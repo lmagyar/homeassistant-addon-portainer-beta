@@ -1,6 +1,6 @@
 # Changelog
 
-## vNext (forked)
+## 2.5.0 (forked)
 
 - Update portainer/portainer to v2.27.0
 - Configure log format for the add-on to be compatible with Portainer's format
