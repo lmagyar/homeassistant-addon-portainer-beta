@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.5.0 (forked)
+
+- Update portainer/portainer to v2.27.0
+- Configure log format for the add-on to be compatible with Portainer's format
+- Update Add-on base image to v17.2.1
+
 ## 2.4.12 (forked)
 
 - Update Add-on base image to v17.0.2
