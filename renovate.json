@@ -58,7 +58,7 @@
     {
       "matchDatasources": ["github-releases"],
       "matchDepNames": ["portainer/portainer"],
-      "matchUpdateTypes": ["minor", "patch"],
+      "allowedVersions": "/^2\\.27\\.[0-9]+$/",
       "automerge": true
     }
   ]
