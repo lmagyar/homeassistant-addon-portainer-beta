@@ -5,7 +5,6 @@
 - Update portainer/portainer to v2.27.8
 - Update Add-on base image to v18.0.0 (Update Alpine base image to v3.22.0)
 
-
 ## 2.5.6 (forked)
 
 - Update portainer/portainer to v2.27.7
