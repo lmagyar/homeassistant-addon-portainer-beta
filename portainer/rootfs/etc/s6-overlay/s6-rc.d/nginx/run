@@ -1,0 +1,12 @@
+#!/command/with-contenv bashio
+# shellcheck shell=bash
+# ==============================================================================
+# Home Assistant Community Add-on: Portainer
+# Runs the Nginx daemon
+# ==============================================================================
+
+# Wait for the Portainer UI to become available
+bashio::net.wait_for 9000 localhost 900
+
+bashio::log.info "Starting Nginx..."
+exec nginx
