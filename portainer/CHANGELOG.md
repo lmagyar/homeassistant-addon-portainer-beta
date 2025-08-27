@@ -1,6 +1,6 @@
 # Changelog
 
-## vNext (forked)
+## 2.6.0 (forked)
 
 - Update portainer/portainer to v2.33.1
 - Fix ingress by clearing conflicting security headers
