@@ -6,15 +6,14 @@ exec &> /proc/1/fd/1
 
 # LAST_REPORTED_HEALTH_STATE is in contenv at /var/run/s6/container_environment
 
-if [[ "200" != $(curl -s -o /dev/null -w "%{http_code}" "http://localhost:8099/api/system/status") ]]
+if [[ "200" != $(curl -s -o /dev/null -w "%{http_code}" "http://localhost:9000/api/system/status") ]]
 then
   # Unhealthy
   if ! bashio::var.equals "${LAST_REPORTED_HEALTH_STATE-}" "UNHEALTHY"; then
     printf "UNHEALTHY" > /var/run/s6/container_environment/LAST_REPORTED_HEALTH_STATE
   fi
   # Log it always
-  bashio::log.fatal "Add-on is unhealthy"
-  bashio::exit.nok
+  bashio::exit.nok "Add-on is unhealthy"
 else
   # Healthy
   if ! bashio::var.equals "${LAST_REPORTED_HEALTH_STATE-}" "HEALTHY"; then
