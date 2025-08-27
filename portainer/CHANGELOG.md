@@ -3,6 +3,7 @@
 ## vNext (forked)
 
 - Update portainer/portainer to v2.33.1
+- Fix ingress by clearing conflicting security headers
 - Update Add-on base image to v18.1.0
 
 ## 2.5.7 (forked)
