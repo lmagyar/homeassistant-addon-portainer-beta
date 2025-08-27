@@ -6,6 +6,11 @@ server {
 
     client_max_body_size 0;
 
+    proxy_hide_header X-Frame-Options;
+    proxy_hide_header Content-Security-Policy;
+    add_header X-Frame-Options "SAMEORIGIN";
+    add_header Content-Security-Policy "frame-ancestors *";
+
     location / {
         allow   172.30.32.2;
         deny    all;
