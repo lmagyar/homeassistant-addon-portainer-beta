@@ -17,8 +17,6 @@ arch:
 init: false
 ports:
   8000/tcp: null
-ports_description:
-  8000/tcp: Edge Agent Api (Enable when managing remote edge agents)
 hassio_api: true
 docker_api: true
 schema:
