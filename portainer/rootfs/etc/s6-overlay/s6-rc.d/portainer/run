@@ -12,7 +12,7 @@ bashio::require.unprotected
 bashio::log.info 'Starting Portainer...'
 
 options+=(--data /data)
-options+=(--bind 0.0.0.0:9443)
+options+=(--bind 0.0.0.0:9000)
 options+=(--host unix:///var/run/docker.sock)
 
 # Export agent secret, if defined
