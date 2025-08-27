@@ -6,7 +6,7 @@
 # ==============================================================================
 
 # Wait for the Portainer UI to become available
-bashio::net.wait_for 9443 localhost 900
+bashio::net.wait_for 9000 localhost 900
 
 bashio::log.info "Starting Nginx..."
 exec nginx
