@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:18.1.0
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:18.2.1
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -7,7 +7,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base
 ARG BUILD_ARCH=amd64
-ARG PORTAINER_VERSION="2.33.1"
+ARG PORTAINER_VERSION="2.33.3"
 RUN \
     apk add --no-cache \
         nginx=1.28.0-r3 \
