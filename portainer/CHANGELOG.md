@@ -1,5 +1,9 @@
 # Changelog
 
+## vNext (forked)
+
+- Fix for add-on base image and bashio log changes, causing healthcheck messages to be not logged
+
 ## 2.6.1 (forked)
 
 - Update portainer/portainer to v2.33.3
