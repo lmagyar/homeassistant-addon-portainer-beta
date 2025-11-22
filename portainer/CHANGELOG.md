@@ -1,5 +1,7 @@
 # Changelog
 
+- Update Add-on base image to v19 (drop armv7 support)
+
 ## vNext (forked)
 
 - Update portainer/portainer to v2.33.4
