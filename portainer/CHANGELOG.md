@@ -2,6 +2,7 @@
 
 ## vNext (forked)
 
+- Update portainer/portainer to v2.33.4
 - Remove deprecated codenotary fields
 
 ## 2.6.2 (forked)
