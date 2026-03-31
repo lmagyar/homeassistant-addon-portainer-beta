@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:18.2.1
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:20.0.0
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -13,7 +13,6 @@ RUN \
         nginx=1.28.2-r0 \
     \
     && if [ "${BUILD_ARCH}" = "aarch64" ]; then ARCH="arm64"; fi \
-    && if [ "${BUILD_ARCH}" = "armv7" ]; then ARCH="arm"; fi \
     && if [ "${BUILD_ARCH}" = "amd64" ]; then ARCH="amd64"; fi \
     \
     && curl -L -s \
