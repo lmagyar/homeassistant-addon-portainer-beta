@@ -2,9 +2,14 @@
 
 ## vNext (forked)
 
+- Update portainer/portainer to v2.39.2
+- Update Add-on base image to v20.1.1
+
+## 2.6.4 (forked)
+
 - Update portainer/portainer to v2.33.7
 - Drop support for armv7 architecture
-- Update Add-on base image to v20 (drop armv7 support)
+- Update App base image to v20 (drop armv7 support)
 
 ## 2.6.3 (forked)
 
@@ -13,28 +18,28 @@
 
 ## 2.6.2 (forked)
 
-- Fix for add-on base image and bashio log changes, causing healthcheck messages to be not logged
+- Fix for app base image and bashio log changes, causing healthcheck messages to be not logged
 
 ## 2.6.1 (forked)
 
 - Update portainer/portainer to v2.33.3
-- Update Add-on base image to v18.2.1
+- Update App base image to v18.2.1
 
 ## 2.6.0 (forked)
 
 - Update portainer/portainer to v2.33.1
 - Fix ingress by clearing conflicting security headers
-- Update Add-on base image to v18.1.0
+- Update App base image to v18.1.0
 
 ## 2.5.7 (forked)
 
 - Update portainer/portainer to v2.27.8
-- Update Add-on base image to v18.0.0 (Update Alpine base image to v3.22.0)
+- Update App base image to v18.0.0 (Update Alpine base image to v3.22.0)
 
 ## 2.5.6 (forked)
 
 - Update portainer/portainer to v2.27.7
-- Update Add-on base image to v17.2.5
+- Update App base image to v17.2.5
 
 ## 2.5.5 (forked)
 
@@ -43,7 +48,7 @@
 ## 2.5.4 (forked)
 
 - Update portainer/portainer to v2.27.4
-- Update Add-on base image to v17.2.4
+- Update App base image to v17.2.4
 
 ## 2.5.3 (forked)
 
@@ -52,7 +57,7 @@
 ## 2.5.2 (forked)
 
 - Update portainer/portainer to v2.27.2
-- Update Add-on base image to v17.2.2
+- Update App base image to v17.2.2
 
 ## 2.5.1 (forked)
 
@@ -61,17 +66,17 @@
 ## 2.5.0 (forked)
 
 - Update portainer/portainer to v2.27.0
-- Configure log format for the add-on to be compatible with Portainer's format
-- Update Add-on base image to v17.2.1
+- Configure log format for the app to be compatible with Portainer's format
+- Update App base image to v17.2.1
 
 ## 2.4.12 (forked)
 
-- Update Add-on base image to v17.0.2
+- Update App base image to v17.0.2
 
 ## 2.4.11 (forked)
 
 - Update portainer/portainer to v2.21.5
-- Update Add-on base image to v17.0.1 (Update Alpine base image to v3.21.0)
+- Update App base image to v17.0.1 (Update Alpine base image to v3.21.0)
 
 ## 2.4.10 (forked)
 
@@ -81,43 +86,43 @@
 
 - Update portainer/portainer to v2.21.4
 - Fix HEALTHCHECK support
-- Update Add-on base image to v16.3.6
+- Update App base image to v16.3.6
 
 ## 2.4.8 (forked)
 
 - Update portainer/portainer to v2.21.2
-- Update Add-on base image to v16.3.2
+- Update App base image to v16.3.2
 
 ## 2.4.7 (forked)
 
 - Update portainer/portainer to v2.21.1
-- Update Add-on base image to v16.3.1
+- Update App base image to v16.3.1
 
 ## 2.4.6 (forked)
 
 - Update portainer/portainer to v2.21.0
-- Update Add-on base image to v16.2.1
+- Update App base image to v16.2.1
 
 ## 2.4.5 (forked)
 
 - Update portainer/portainer to v2.20.3
-- Update Add-on base image to v16.0.0 (Update Alpine base image to v3.20.0)
+- Update App base image to v16.0.0 (Update Alpine base image to v3.20.0)
 
 ## 2.4.4 (forked)
 
 - Update portainer/portainer to v2.20.1
-- Update Add-on base image to v15.0.8
+- Update App base image to v15.0.8
 
 ## 2.4.3 (forked)
 
 - Update portainer/portainer to v2.20.0
-- Update Add-on base image to v15.0.7 (Update Alpine base image to v3.19.1)
+- Update App base image to v15.0.7 (Update Alpine base image to v3.19.1)
 
 ## 2.4.2 (forked)
 
-- Remove `log_level` fom the documentation, this is not used by the add-on
+- Remove `log_level` fom the documentation, this is not used by the app
 - Update portainer/portainer to v2.19.4
-- Update Add-on base image to v14.3.3
+- Update App base image to v14.3.3
 
 ## 2.4.1 (forked)
 
@@ -131,7 +136,7 @@
 Nonbreaking changes:
 - Add HEALTHCHECK support
 - Update portainer/portainer to v2.19.2
-- Update Add-on base image to v14.3.2
+- Update App base image to v14.3.2
 
 ## 2.3.2 (forked)
 
@@ -140,13 +145,13 @@ Nonbreaking changes:
 ## 2.3.1 (forked)
 
 - Update portainer/portainer to v2.19.0
-- Update Add-on base image to v14.1.0 (Update Alpine base image to v3.18.3)
+- Update App base image to v14.1.0 (Update Alpine base image to v3.18.3)
 
 ## 2.3.0 (forked)
 
 - Update portainer/portainer to v2.18.4
-- Update Add-on base image to v14.0.2
-- Sign add-on with Sigstore Cosign
+- Update App base image to v14.0.2
+- Sign app with Sigstore Cosign
 
 ## 2.2.3 (forked)
 
@@ -154,7 +159,7 @@ Nonbreaking changes:
 
 ## 2.2.2 (forked)
 
-- Update Add-on base image to v14 (Update Alpine base image to v3.18.0)
+- Update App base image to v14 (Update Alpine base image to v3.18.0)
 
 ## 2.2.1 (forked)
 
@@ -163,8 +168,8 @@ Nonbreaking changes:
 ## 2.2.0 (forked)
 
 - Update Portainer to v2.18.1
-- Migrate add-on layout to S6 Overlay
-- Update Add-on base image to v13.2.2
+- Migrate app layout to S6 Overlay
+- Update App base image to v13.2.2
 
 ## 2.1.18 (forked)
 
@@ -244,7 +249,7 @@ Nonbreaking changes:
 ## 2.1.0 (forked)
 
 - Bump base image from 11.1.2 to 12.2.0
-- Sign add-on with Codenotary Community Attestation Service (CAS)
+- Sign app with Codenotary Community Attestation Service (CAS)
 
 ## 2.0.5 (forked)
 
@@ -270,10 +275,10 @@ Nonbreaking changes:
 
 ## 2.0.0.0 (forked)
 
-- Make it available as a custom add-on
+- Make it available as a custom app
 
 ## 2.0.0
 
-- Last known, deprecated community add-on
+- Last known, deprecated community app
 
-For previous changelog see the original add-on's [release history](https://github.com/hassio-addons/addon-portainer/releases).
+For previous changelog see the original app's [release history](https://github.com/hassio-addons/addon-portainer/releases).
