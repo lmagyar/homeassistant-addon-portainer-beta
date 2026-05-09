@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:20.0.1
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:20.1.1
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -7,7 +7,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base
 ARG BUILD_ARCH=amd64
-ARG PORTAINER_VERSION="2.33.7"
+ARG PORTAINER_VERSION="2.39.2"
 RUN \
     apk add --no-cache \
         nginx=1.28.3-r0 \
@@ -27,7 +27,7 @@ HEALTHCHECK \
 
 # Environment variables
 ENV \
-    # Add-on log format
+    # App log format
     LOG_FORMAT="{TIMESTAMP} {LEVEL}: {MESSAGE}" \
     LOG_TIMESTAMP="%Y/%m/%d %H:%M:%S"
 
@@ -48,11 +48,11 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="Franck Nijhof <frenck@addons.community>" \
+    maintainer="Franck Nijhof <opensource@frenck.dev>" \
     org.opencontainers.image.title="${BUILD_NAME}" \
     org.opencontainers.image.description="${BUILD_DESCRIPTION}" \
-    org.opencontainers.image.vendor="Home Assistant Custom Add-on" \
-    org.opencontainers.image.authors="Franck Nijhof <frenck@addons.community>" \
+    org.opencontainers.image.vendor="Home Assistant Custom App" \
+    org.opencontainers.image.authors="Franck Nijhof <opensource@frenck.dev>" \
     org.opencontainers.image.licenses="MIT" \
     org.opencontainers.image.url="https://addons.community" \
     org.opencontainers.image.source="https://github.com/${BUILD_REPOSITORY}" \
