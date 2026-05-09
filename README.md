@@ -1,11 +1,11 @@
 
-# Home Assistant Custom Add-on: Portainer
+# Home Assistant Custom App: Portainer
 
 Manage your Docker environment with ease.
 
 ![Warning][warning_stripe]
 
-> This is a **fork** of the deprecated [community add-on][community_addon]!
+> This is a **fork** of the deprecated [community app][community_app]!
 >
 > This makes it available again.
 
@@ -24,7 +24,7 @@ Manage your Docker environment with ease.
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
 
-![The Portainer Add-on][screenshot]
+![The Portainer App][screenshot]
 
 ## About
 
@@ -37,14 +37,14 @@ volumes.
 
 ## WARNING 1
 
-The Portainer add-on is really powerful and gives you access to virtually
-your whole system. While this add-on is created and maintained with care and
+The Portainer app is really powerful and gives you access to virtually
+your whole system. While this app is created and maintained with care and
 with security in mind, in the wrong or inexperienced hands,
 it could damage your system.
 
 ## WARNING 2
 
-The Portainer add-on is meant for debugging Home Assistant and its containers.
+The Portainer app is meant for debugging Home Assistant and its containers.
 It has not meant or designed for managing or deploying your custom software
 or third-party containers.
 
@@ -57,14 +57,14 @@ render your system as unsupported!
 1. In Home Assistant, go to **Settings** -> **Apps** -> **Install app**.
 1. In the **...** menu at the top right corner click **Repositories**, add
    `https://github.com/lmagyar/homeassistant-addon-portainer` as repository.
-1. Find the "Portainer" add-on and click it. If it doesn't show up, wait until
-   HA refreshes the information about the add-on, or click **Check for updates**
+1. Find the "Portainer" app and click it. If it doesn't show up, wait until
+   HA refreshes the information about the app, or click **Check for updates**
    in the **...** menu at the top right corner.
 1. Click on the "INSTALL" button.
 
 ## Documentation
 
-For more details, please see the add-on's [Documentation][Documentation] pages.
+For more details, please see the app's [Documentation][Documentation] pages.
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
@@ -84,4 +84,4 @@ For more details, please see the add-on's [Documentation][Documentation] pages.
 [updated-shield]: https://img.shields.io/github/last-commit/lmagyar/homeassistant-addon-portainer/main?label=updated
 [updated]: https://github.com/lmagyar/homeassistant-addon-portainer/commits/main
 [warning_stripe]: https://github.com/lmagyar/homeassistant-addon-portainer/raw/main/images/warning_stripe_wide.png
-[community_addon]: https://github.com/hassio-addons/addon-portainer
+[community_app]: https://github.com/hassio-addons/addon-portainer
