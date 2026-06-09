@@ -1,5 +1,10 @@
 # Changelog
 
+## vNext (forked)
+
+- Update portainer/portainer to v2.39.3
+- Update App base image to v20.2.0
+
 ## 2.7.0 (forked)
 
 - Update portainer/portainer to v2.39.2
