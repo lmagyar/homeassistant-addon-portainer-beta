@@ -1,8 +1,8 @@
 # Changelog
 
-## vNext (forked)
+## 2.7.1 (forked)
 
-- Update portainer/portainer to v2.39.3
+- Update portainer/portainer to v2.39.4
 - Update App base image to v21.0.0 (Update Alpine base image to v3.24.0)
 
 ## 2.7.0 (forked)
