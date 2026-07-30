@@ -1,5 +1,9 @@
 # Changelog
 
+## vNext (forked)
+
+- Update portainer/portainer to v2.39.5
+
 ## 2.7.1 (forked)
 
 - Update portainer/portainer to v2.39.4
