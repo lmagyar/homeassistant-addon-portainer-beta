@@ -1,10 +1,9 @@
 ---
 name: Portainer
-version: 2.7.1
+version: 2.7.2
 slug: portainer
 description: Manage your Docker environment with ease
 url: https://github.com/lmagyar/homeassistant-addon-portainer
-advanced: true
 ingress: true
 ingress_stream: true
 startup: services
