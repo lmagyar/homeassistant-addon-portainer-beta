@@ -1,9 +1,14 @@
 # Changelog
 
+## vNext (forked)
+
+- Properly handle failure during service startup
+
 ## 2.7.2 (forked)
 
 - Update portainer/portainer to v2.39.5
 - Update App base image to v21.0.1
+- Graceful shutdown on SIGTERM caused by manual app stop
 
 ## 2.7.1 (forked)
 
