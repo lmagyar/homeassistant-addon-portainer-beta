@@ -1,5 +1,9 @@
 # Changelog
 
+## vNext (forked)
+
+- Properly handle failure during service startup
+
 ## 2.7.2 (forked)
 
 - Update portainer/portainer to v2.39.5
